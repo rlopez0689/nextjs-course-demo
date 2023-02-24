@@ -10,7 +10,7 @@
     "cypress": "cypress open",
     "type-check": "tsc",
     "e2e:headless": "start-server-and-test dev http://localhost:3000 \"cypress run --e2e\"",
-    "test": "jest --watchAll=false -u",
+    "test": "jest --config jest.config.js",
     "test:coverage": "jest --silent --testLocationInResults --ci --all --coverage --json --outputFile=\"report.json\"",
     "test:ci": "jest --ci"
   },
