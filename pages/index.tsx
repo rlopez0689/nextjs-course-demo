@@ -5,7 +5,7 @@ const Index = () => {
   return (
     <>
       <h1>The Home Page</h1>
-      <h1>New Things</h1>
+      <h1>New Things 232</h1>
       <ul>
         <li>
           <Link href="news/nxtjs">NextJS Is a great framework</Link>
