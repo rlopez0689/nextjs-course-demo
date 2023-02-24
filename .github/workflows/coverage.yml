@@ -1,8 +1,10 @@
-name: "coverage"
+name: coverage
+
 on:
   pull_request:
     branches:
       - development
+
 jobs:
   coverage:
     runs-on: ubuntu-latest
