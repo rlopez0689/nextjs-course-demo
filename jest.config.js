@@ -4,6 +4,8 @@ module.exports = {
     "!**/*.d.ts",
     "!**/node_modules/**",
   ],
+  collectCoverage: true,
+  coverageReporters: ["text", "cobertura"],
   moduleNameMapper: {
     // Handle CSS imports (with CSS modules)
     // https://jestjs.io/docs/webpack#mocking-css-modules
